@@ -8,8 +8,8 @@ export default {
     extend: {
       colors:{
         brightOrange: '#f3603d',
-        mgBlack: '#0b0b0b',
-        lightGray: '#c3c6cf'
+        mgBlack: '#242d52',
+        lightGray: '#a2a6b5'
       }
     },
     screens:{

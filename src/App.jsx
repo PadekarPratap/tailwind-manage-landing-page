@@ -1,9 +1,11 @@
-import Navbar from './components/Navbar'
+import Features from "./components/Features"
+import Header from "./components/Header"
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
+      <Features />
     </div>
   )
 }

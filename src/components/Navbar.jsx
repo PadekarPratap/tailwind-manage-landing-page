@@ -55,8 +55,8 @@ const Navbar = () => {
       <div
         className={
           openNav
-            ? "opacity-100 fixed top-[6rem] left-[5rem] right-[5rem] shadow-2xl shadow-black/20 duration-500 ease-in-out"
-            : "opacity-0 top-[5rem] pointer-events-none"
+            ? "opacity-100 fixed top-[6rem] left-[5rem] right-[5rem] shadow-2xl shadow-black/20 bg-white duration-500 ease-in-out"
+            : "opacity-0 top-[5rem] pointer-events-none hidden"
         }
       >
         <ul className="text-center">
