@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/img/logo.svg";
-import { HiOutlineMenu } from "react-icons/hi";
-import { HiOutlineXMark } from "react-icons/hi2";
+import HamMenu from '../assets/img/icon-hamburger.svg'
+import Cross from '../assets/img/icon-close.svg'
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -47,7 +47,7 @@ const Navbar = () => {
           role="button"
           onClick={() => setOpenNav(!openNav)}
         >
-          {openNav ? <HiOutlineXMark size={30} /> : <HiOutlineMenu size={30} />}
+          {openNav ? <img src={Cross} alt="menu" /> : <img src={HamMenu} alt="close" />}
         </div>
       </div>
 
