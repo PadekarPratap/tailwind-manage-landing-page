@@ -3,8 +3,8 @@ import img from '../assets/img/icon-hamburger.svg'
 
 const Promotion = () => {
   return (
-    <section className='w-full h-[30vh] bg-brightOrange'>
-        <div className='container mx-auto px-4 h-full py-[5%]'>
+    <section className='w-full h-[30vh] bg-brightOrange relative'>
+        <div className='container mx-auto px-4 h-full absolute inset-x-0 top-[50%] translate-y-[-10%]'>
             <div className='grid md:grid-cols-3'>
                 <div className='md:col-span-2'>
                     <h1 className='text-white font-bold text-2xl text-center md:text-left md:text-3xl lg:text-4xl'>Simplify How your team works today!</h1>
