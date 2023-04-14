@@ -8,7 +8,7 @@ import Insta from '../assets/img/icon-instagram.svg'
 
 const Footer = () => {
   return (
-    <div className='bg-[#1d1e25] w-full h-[80vh] md:h-[50vh] lg:h-[30vh] relative'>
+    <div className='bg-[#1d1e25] w-full max-h-[80vh] relative'>
         <div className='container mx-auto px-4 absolute top-1/2 translate-y-[-50%] inset-x-0'>
             <div className='grid md:grid-cols-3'>
                 <div className='order-3 md:order-1'>
